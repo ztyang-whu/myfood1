@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">饱了吗</string>
+
+
+    <string name="title_activity_register">饱了吗-用户注册</string>
+    <string name="title_activity_login">饱了吗-用户登录</string>
+    <string name="title_activity_star">饱了吗</string>
+    <string name="title_activity_star_textview1">饱了吗</string>
+    <string name="title_activity_star_textview2">beta1.0</string>
+    <string name="title_activity_star_textview3">作者：2016ZGAP05</string>
+    <string name="title_activity_usercenter">饱了吗-个人中心</string>
+    <string name="title_activity_userinfo">个人信息</string>
+    <string name="title_activity_infoalter">信息修改</string>
+    <string name="title_activity_about">关于餐厅订餐</string>
+
+    <string name="title_activity_food">菜品</string>
+    <string name="title_activity_store">商家</string>
+    <string name="title_activity_storeinfo">商家</string>
+    <string name="title_activity_basket">购物车</string>
+    <string name="title_activity_menu">菜单</string>
+    <string name="title_activity_pindan">拼单社区</string>
+    <string name="title_activity_history">历史订单</string>
+    <string name="title_activity_feedback">反馈</string>
+    <string name="ip">192.168.43.150:8080</string>
+
+</resources>

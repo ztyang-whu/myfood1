@@ -1,0 +1,184 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    android:divider="@drawable/line">
+
+
+    <!--商品图片-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+
+        <ImageView
+            android:id="@+id/foodinfo_photo_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@android:drawable/ic_menu_camera" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <!--菜名-->
+        <TextView
+            android:id="@+id/foodinfo_name_text"
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+<!--价格-->
+        <TextView
+            android:id="@+id/foodinfo_price_text"
+            android:layout_width="100dp"
+            android:paddingTop="8dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+
+    <!--商品描述-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp" >
+
+        <TextView
+            android:id="@+id/foodinfo_desc_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="商品描述"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/foodinfo_desc_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <!--商家名-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp" >
+
+        <TextView
+            android:id="@+id/foodinfo_storename_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="商家名称"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/foodinfo_storename_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+    </LinearLayout>
+
+    <!--商家电话-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp" >
+
+        <TextView
+            android:id="@+id/foodinfo_storephone_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="商家电话"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/foodinfo_storephone_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    </LinearLayout>
+
+
+    <!--商家地址-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp" >
+
+        <TextView
+            android:id="@+id/foodinfo_storeaddr_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="商家地址"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/foodinfo_storeaddr_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+    <!--添加按钮-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/foodinfo_addfood_button"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/buttonstyle"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="添加至购物车" />
+    </LinearLayout>
+
+</LinearLayout>

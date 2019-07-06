@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:alpha="50"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <ListView
+        android:id="@+id/basket_food_listView"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right">
+        <!--地址-->
+        <TextView
+            android:id="@+id/basket_address_text"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:id="@+id/basket_sum_title"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="订单总金额:"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/basket_sum_text"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/basket_pindan_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonstyle"
+            android:focusable="false"
+            android:textColor="@color/white"
+            android:text="发 起 拼 单" />
+<TextView
+    android:layout_width="30dp"
+    android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/basket_sub_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/buttonstyle"
+            android:focusable="false"
+            android:textColor="@color/white"
+            android:text="提 交 订 单" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

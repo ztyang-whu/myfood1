@@ -1,0 +1,202 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+
+        <!--头像-->
+        <ImageView
+            android:id="@+id/usercenter_photo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@android:drawable/ic_menu_camera" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--用户名-->
+            <TextView
+                android:id="@+id/usercenter_username"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="30dp"
+                android:gravity="center_vertical"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="30dp"
+                android:orientation="horizontal">
+
+                <!--星星-->
+                <ImageView
+                    android:id="@+id/usercenter_star"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/star" />
+
+                <!--等级-->
+                <TextView
+                    android:id="@+id/usercenter_rank"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--个人信息-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="50dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+
+        <Button
+            android:id="@+id/usercenter_info"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@drawable/buttonstyle"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:minHeight="38dp"
+            android:textStyle="bold"
+            android:text="个  人  信  息" />
+
+    </LinearLayout>
+
+    <!--历史订单-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" >
+
+        <Button
+            android:id="@+id/usercenter_cart"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@drawable/buttonstyle"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:minHeight="38dp"
+            android:textStyle="bold"
+            android:text="购  物  车" />
+
+    </LinearLayout>
+    <!--历史订单-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" >
+
+        <Button
+            android:id="@+id/usercenter_history"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@drawable/buttonstyle"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:minHeight="38dp"
+            android:textStyle="bold"
+            android:text="历  史  订  单" />
+
+    </LinearLayout>
+
+    <!--退出登录-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" >
+
+        <Button
+            android:id="@+id/usercenter_exit"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@drawable/buttonstyle"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:minHeight="38dp"
+            android:textStyle="bold"
+            android:text="退  出  登  录" />
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:padding="5dp" >-->
+
+        <!--<Button-->
+            <!--android:id="@+usercenter/button4"-->
+            <!--style="?android:attr/buttonStyleSmall"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/buttonstyle"-->
+            <!--android:gravity="left|center_vertical"-->
+            <!--android:minHeight="38dp"-->
+            <!--android:paddingLeft="15dp"-->
+            <!--android:text="修改密码" />-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:padding="5dp" >-->
+
+        <!--<Button-->
+            <!--android:id="@+usercenter/button5"-->
+            <!--style="?android:attr/buttonStyleSmall"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/buttonstyle"-->
+            <!--android:gravity="left|center_vertical"-->
+            <!--android:minHeight="38dp"-->
+            <!--android:paddingLeft="15dp"-->
+            <!--android:text="退出登录" />-->
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>

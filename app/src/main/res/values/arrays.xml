@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="userinfo_sex">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string-array name="userinfo_department">
+        <item>信息学部7舍</item>
+        <item>信息学部11舍</item>
+        <item>医学部1舍</item>
+        <item>医学部2舍</item>
+        <item>工学部湖滨1舍</item>
+        <item>工学部湖滨2舍</item>
+        <item>文理学部桂园1舍</item>
+        <item>文理学部桂园2舍</item>
+    </string-array>
+
+
+    <string-array name="userinfo_dormitory">
+        <item>信息学部2舍</item>
+        <item>信息学部3舍</item>
+        <item>信息学部4舍</item>
+        <item>信息学部5舍</item>
+    </string-array>
+
+</resources>

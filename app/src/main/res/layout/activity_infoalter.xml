@@ -1,0 +1,236 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+    android:showDividers="middle"
+    android:divider="@drawable/line">
+
+<!--头像-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:paddingLeft="15dp">
+
+    <TextView
+        android:id="@+id/infoalter_photo_title"
+        android:layout_width="271dp"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        android:text="头像"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/infoalter_photo_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:src="@android:drawable/ic_menu_camera"/>
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+   <!--<ImageView-->
+        <!--android:id="@+id/infoalter_photo_image"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:src="@android:drawable/ic_menu_camera" />-->
+
+</LinearLayout>
+    <!--账号-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp" >
+
+        <TextView
+            android:id="@+id/infoalter_id_title"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:text="账号"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/infoalter_id_text"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+<!--昵称-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:paddingLeft="15dp"
+    android:paddingRight="30dp">
+
+    <TextView
+        android:id="@+id/infoalter_name_title"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:text="昵称"
+
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/infoalter_name_text"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:background="@null"
+        android:drawableBottom="@drawable/line"
+        android:paddingBottom="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+</LinearLayout>
+
+
+
+
+<!--性别-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:paddingLeft="15dp"
+    android:paddingRight="30dp">
+
+    <TextView
+        android:id="@+id/infoalter_sex_title"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+
+        android:text="性别"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/infoalter_sex_text"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:background="@null"
+        android:drawableBottom="@drawable/line"
+        android:paddingBottom="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="30dp">
+
+        <TextView
+            android:id="@+id/infoalter_department_title"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+
+            android:text="地址"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <!--定义一个Spinner组件，指定显示该Spinner组件的数组-->
+        <Spinner
+            android:id="@+id/infoalter_department_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:entries="@array/userinfo_department"
+
+            android:dropDownWidth="230dp"
+        android:gravity="center_vertical"
+        android:background="@null">
+        </Spinner>
+    </LinearLayout>
+    <!--android:popupBackground="#66ccff"-->
+
+<!--学部-->
+<!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="60dp"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:paddingLeft="15dp"-->
+    <!--android:paddingRight="30dp">-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/infoalter_department_title"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:gravity="center_vertical"-->
+
+        <!--android:text="学部"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/infoalter_department_text"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:background="@null"-->
+        <!--android:drawableBottom="@drawable/line"-->
+        <!--android:paddingBottom="15dp"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+
+<!--</LinearLayout>-->
+
+
+<!--宿舍-->
+<!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="60dp"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:paddingLeft="15dp"-->
+    <!--android:paddingRight="30dp">-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/infoalter_dormitory_title"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:gravity="center_vertical"-->
+
+        <!--android:text="宿舍"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/infoalter_dormitory_text"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:background="@null"-->
+        <!--android:drawableBottom="@drawable/line"-->
+        <!--android:paddingBottom="15dp"-->
+        <!--android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+<!--</LinearLayout>-->
+    <!--提交按钮-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp"
+        android:gravity="center"
+        android:paddingRight="30dp"
+        android:paddingTop="70dp" >
+
+        <Button
+            android:id="@+id/infoalter_submit_button"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="@drawable/buttonstyle"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="提    交" />
+    </LinearLayout>
+</LinearLayout>
